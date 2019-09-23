@@ -20,6 +20,7 @@ import SPA002 from './images/SPA002.jpeg';
 import SPA003 from './images/SPA003.jpeg';
 import SPAArchitecture from './images/spaArchitecture.jpeg';
 import SPALifeCycle from './images/spaLifeCycle.jpeg';
+import SWStateProps from './images/SWstate.png';
 import PuppyAsk from './images/puppyAsk.gif';
 
 // React examples
@@ -485,8 +486,16 @@ const Welcome = ({ title }) =>
           `}/>
         </Slide>
 
+        <Slide transition={['fade']} bgColor="primary" align="center flex-start">
+          <Heading size={4} textColor="secondary">
+            State & Props Recap
+          </Heading>
+          <Text margin="100px 0" bold textColor="secondary"/> 
+          <Image alt="star-wars-state" src={SWStateProps}/>
+        </Slide>
+
         <Slide transition={['fade']} bgColor="primary" >
-          <Image alt="full-page" src={PuppyAsk}/>
+          <Image alt="puppy" src={PuppyAsk}/>
         </Slide>
       </Deck>
     );
