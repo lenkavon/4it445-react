@@ -2,12 +2,14 @@
   "name": "react-vse",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lenkavon.github.io/react-vse",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.24",
     "@fortawesome/free-regular-svg-icons": "^5.11.1",
     "@fortawesome/free-solid-svg-icons": "^5.11.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "date-fns": "^2.2.1",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -18,6 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "prettier": "node ./node_modules/.bin/prettier --write"
   },
   "eslintConfig": {
