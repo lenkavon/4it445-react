@@ -2,7 +2,7 @@
   "name": "react-vse",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lenkavon.github.io/react-vse",
+  "homepage": "https://lenkavon.github.io/4it445-react",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.24",
     "@fortawesome/free-regular-svg-icons": "^5.11.1",
